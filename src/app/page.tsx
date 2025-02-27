@@ -1,7 +1,8 @@
-import Products from "@/components/products";
+// import Products from "@/components/products";
 
 export default function Home() {
   return (
-    <Products/>
+    // <Products/>
+    <div>test</div>
   );
 }
