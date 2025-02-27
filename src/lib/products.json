@@ -1,0 +1,89 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 59.99,
+        "description": "High-quality noise-cancelling wireless headphones.",
+        "imageUrl": "https://picsum.photos/seed/headphones/200/200"
+      },
+      {
+        "id": 2,
+        "name": "Smartwatch",
+        "price": 129.99,
+        "description": "Smartwatch with health tracking and notifications.",
+        "imageUrl": "https://picsum.photos/seed/smartwatch/200/200"
+      },
+      {
+        "id": 3,
+        "name": "Gaming Mouse",
+        "price": 39.99,
+        "description": "Ergonomic gaming mouse with customizable buttons.",
+        "imageUrl": "https://picsum.photos/seed/mouse/200/200"
+      },
+      {
+        "id": 4,
+        "name": "Mechanical Keyboard",
+        "price": 89.99,
+        "description": "Mechanical keyboard with RGB backlighting.",
+        "imageUrl": "https://picsum.photos/seed/keyboard/200/200"
+      },
+      {
+        "id": 5,
+        "name": "Laptop Stand",
+        "price": 29.99,
+        "description": "Adjustable laptop stand for ergonomic use.",
+        "imageUrl": "https://picsum.photos/seed/laptopstand/200/200"
+      },
+      {
+        "id": 6,
+        "name": "Bluetooth Speaker",
+        "price": 49.99,
+        "description": "Portable Bluetooth speaker with excellent sound quality.",
+        "imageUrl": "https://picsum.photos/seed/speaker/200/200"
+      },
+      {
+        "id": 7,
+        "name": "USB-C Hub",
+        "price": 24.99,
+        "description": "Multi-port USB-C hub with HDMI and USB 3.0 ports.",
+        "imageUrl": "https://picsum.photos/seed/usbc-hub/200/200"
+      },
+      {
+        "id": 8,
+        "name": "External Hard Drive",
+        "price": 79.99,
+        "description": "1TB external hard drive for extra storage.",
+        "imageUrl": "https://picsum.photos/seed/harddrive/200/200"
+      },
+      {
+        "id": 9,
+        "name": "Smartphone",
+        "price": 399.99,
+        "description": "Latest model smartphone with advanced features.",
+        "imageUrl": "https://picsum.photos/seed/smartphone/200/200"
+      },
+      {
+        "id": 10,
+        "name": "Tablet",
+        "price": 299.99,
+        "description": "10-inch tablet with high resolution display.",
+        "imageUrl": "https://picsum.photos/seed/tablet/200/200"
+      },
+      {
+        "id": 11,
+        "name": "Fitness Tracker",
+        "price": 19.99,
+        "description": "Track your daily activities and health metrics.",
+        "imageUrl": "https://picsum.photos/seed/fitnesstracker/200/200"
+      },
+      {
+        "id": 12,
+        "name": "Portable Charger",
+        "price": 34.99,
+        "description": "10,000mAh portable charger for your mobile devices.",
+        "imageUrl": "https://picsum.photos/seed/charger/200/200"
+      }
+    ]
+  }
+  
