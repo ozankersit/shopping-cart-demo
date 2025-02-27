@@ -5,7 +5,7 @@ import ProductCard, {
 export default async function Home() {
   const WEB_URL = process.env.NEXT_LOCAL_WEB_URL;
   async function getProducts(): Promise<ProductProps[]> {
-    const res = await fetch(`${WEB_URL}/api/products`);
+    const res = await fetch(`http://localhost:3000/api/products`);
     const data = await res.json();
     if (!res.ok) {
       throw new Error("Failed to fetch data");
