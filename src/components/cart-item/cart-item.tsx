@@ -11,6 +11,17 @@ export default function CartItem() {
   const { cart, increaseQuantity, decreaseQuantity, removeFromCart } =
     cartContext;
 
+  const totalPrice = cart.reduce(
+    (acc, item) => acc + item.price * item.quantity,
+    0
+  );
+  const formattedPrice = new Intl.NumberFormat("en-EN", {
+    style: "currency",
+    currency: "USD",
+  }).format(totalPrice);
+
+  const isCartEmpty = cart.length === 0;
+
   return (
     <div className="p-4 flex flex-col gap-2">
       {cart.map((item) => (
@@ -40,6 +51,10 @@ export default function CartItem() {
           </div>
         </div>
       ))}
+      {!isCartEmpty ? <div className="group mt-3">
+        <span>Total:</span>
+        <span className="group-hover:underline">{formattedPrice}</span>
+      </div> : null}
     </div>
   );
 }

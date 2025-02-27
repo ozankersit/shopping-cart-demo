@@ -1,4 +1,6 @@
-import ProductCard, { ProductProps } from "@/components/product-card/product-card";
+import ProductCard, {
+  ProductProps,
+} from "@/components/product-card/product-card";
 
 export default async function Home() {
   const WEB_URL = process.env.NEXT_LOCAL_WEB_URL;
@@ -14,7 +16,14 @@ export default async function Home() {
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 mt-5">
       {data.map((item) => (
-        <ProductCard id={item.id} key={item.id} name={item.name} price={item.price} description={item.description} imageUrl={item.imageUrl}/>
+        <ProductCard
+          id={item.id}
+          key={item.id}
+          name={item.name}
+          price={item.price}
+          description={item.description}
+          imageUrl={item.imageUrl}
+        />
       ))}
     </div>
   );
