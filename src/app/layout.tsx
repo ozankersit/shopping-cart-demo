@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body className={`${geistMono.className} container mx-auto mt-5 px-5`}>
+        <body className={`${geistMono.className} container mt-5 px-5`}>
           <Header />
           {children}
         </body>
